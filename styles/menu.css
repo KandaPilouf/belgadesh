@@ -1,0 +1,21 @@
+.origan{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+}
+
+
+.origan_menu{
+
+}
+
+
+.origan_img{
+  display: flex;
+  width: 33.5em;
+  height: 41.625em;
+  object-fit : cover;
+}
+
