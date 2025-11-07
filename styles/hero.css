@@ -27,10 +27,14 @@
 }
 
 .hero_background{
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-attachment: fixed; */
-  /* background-position: center center; */
+  display: flex;
+  width: 100dvw;
+  height: 100dvh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  z-index: -1;
   /* style */ 
 
   opacity: 30%;

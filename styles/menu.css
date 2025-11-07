@@ -67,8 +67,10 @@
 
 .paws{
   display: flex;
+  position: absolute;
+  top: 90rem;
+  left: 0;
   width: 100dvw;
-  height: auto;
 }
 
 /* Auto dots in menu */ 
