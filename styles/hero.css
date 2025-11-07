@@ -3,30 +3,34 @@
   /* position */
 
   display: flex;
-  min-width: 100vw;
-  min-height: 100vh;
+  position: absolute;
+  width: 100dvw;
+  height: 100dvh;
   justify-content: center;
   align-items: center;
 
   /* style */ 
 
-  font-size: 6.864rem;
+  font-size: 11.063rem;
   letter-spacing: -0.5rem;
   font-style: italic;
 }
 
-.hero_background{
-  
-  /* position */
-  
+.hero{
   display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  height: 100vh;
-  width: 100vw;
+  width: 100dvw;
+  height: 100dvh;
+  /* background: url("../img/background/hero.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
+}
 
+.hero_background{
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  /* background-position: center center; */
   /* style */ 
 
   opacity: 30%;

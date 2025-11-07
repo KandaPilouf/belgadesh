@@ -8,6 +8,7 @@ html{
   font-family: "Instrument Serif";
   font-size: 16px;
   background-color: var(--main-color);
+  width: 100dvw;
 }
 
 *{

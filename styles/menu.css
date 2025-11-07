@@ -1,21 +1,101 @@
 .origan{
   display: flex;
+  width: 84.875rem;
+  height: 41.625rem;
+  margin: 12.313rem auto;
   justify-content: space-between;
-  margin-left: 2rem;
-  margin-right: 2rem;
+}
 
+.origan img{
+  box-shadow: 10px, 10px, 10px, red;
 }
 
 
-.origan_menu{
-
+.origan_img img{
+  height: 41.625rem;
+  width: 33.5rem;
+  object-fit: cover;
+  border-radius: 25px;
 }
 
 
 .origan_img{
-  display: flex;
-  width: 33.5em;
-  height: 41.625em;
-  object-fit : cover;
+  border-radius: 25px;
+  box-shadow: 5px 5px 50px -10px rgba(0,0,0,50%);
 }
 
+.origan_menu{
+  display: flex;
+  flex-flow: column nowrap ;
+  height: 41.625rem;
+  width: 33.5rem;
+  justify-content: center;
+}
+
+.origan_menu_title{
+  font-size: 4.250rem;
+  /* line-height: 1.162rem; */
+  letter-spacing: 0.128rem;
+  /* width: 27.250rem; */ 
+  width: 100%;
+  height: 5.5rem;
+
+  font-style: italic;
+  /* text-decoration: underline; */
+  /* text-decoration-thickness: 1px; */ 
+  border-bottom: solid 0.5px  black;
+}
+
+.origan_menu ul{
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 0.5rem;
+  font-family: "Manrope";
+  font-size: 1.625rem;
+  letter-spacing: 0.049rem;
+}
+
+.origan_menu_info{
+  display: flex column nowrap;
+  margin-top: 1rem;
+  font-family: "Manrope";
+  font-size: 1rem;
+  letter-spacing: 0.03rem;
+  font-weight: bold;
+}
+
+
+.paws{
+  display: flex;
+  width: 100dvw;
+  height: auto;
+}
+
+/* Auto dots in menu */ 
+
+
+ul.auto_dot{
+ max-width: 33.5rem;
+ padding: 0;
+ overflow-x: hidden;
+ list-style: none;
+}
+
+ul.auto_dot li:before{
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content: "....................................................................................................................................................................................................................................................................................."
+}
+
+ul.auto_dot span:first-child{
+  padding-right: 0.33rem;
+  background:var(--main-color) ;
+}
+
+ul.auto_dot span+span{
+  float: right;
+  padding-left: 0.33rem;
+  font-weight: 450;
+  background: var(--main-color);
+}
