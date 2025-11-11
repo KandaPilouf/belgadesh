@@ -2,14 +2,18 @@
 @import './typo.css';
 @import './hero.css';
 @import './menu.css';
+@import './media.css'
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@200..800&display=swap');
 
 html{
   font-family: "Instrument Serif";
   font-size: 16px;
   background-color: var(--main-color);
-  width: 100dvw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
+
+
 
 *{
   padding: 0;
