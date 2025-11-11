@@ -46,8 +46,9 @@
 
   display: flex;
   position: absolute;
+  width: 100dvw;
+  justify-content: center;
   bottom: 5rem;
-  left: 50%;
   
   /* style */ 
 

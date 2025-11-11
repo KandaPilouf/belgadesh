@@ -16,6 +16,7 @@
   width: 536px;
   object-fit: cover;
   border-radius: 25px;
+  overflow: hidden;
 }
 
 
@@ -75,7 +76,7 @@
 .paws{
   display: flex;
   position: absolute;
-  top: 75rem;
+  top: 70rem;
   left: 0;
   width: 100%;
   height: auto;
@@ -86,6 +87,65 @@
 .paws img{
   max-inline-size: 100%;
   opacity: 0.6;
+}
+
+.about{
+  margin-top: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_text{
+  display: flex;
+  justify-content: center;
+  width: 42.125rem;
+  height: 30.125rem;
+  flex-flow: column nowrap;
+}
+
+.about_text p:first-child{
+  font-size: 4.250rem;
+  letter-spacing: 0.128rem;
+  font-style: italic;
+}
+
+.about_text p:last-child{
+  text-align: left;
+  font-family: "Manrope";
+  font-size: 2.625rem;
+  letter-spacing: 0;079rem;
+  font-weight: normal;
+}
+
+.about_img img{
+  display: block;
+  height: 666px;
+  width: 536px;
+  object-fit: cover;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .origan{
+    gap: 5rem;
+    align-items: center;
+  }
+  .origan_img{
+    height: 466px;
+    width: 336px;
+  }
+
+  .origan_img img{
+    height: 466px;
+    width: 336px;
+  }
+
+  .about_img img{
+    height: 566px;
+    width: 436px;
+  }
 }
 
 /* Auto dots in menu */ 
@@ -102,7 +162,7 @@ ul.auto_dot li:before{
   float: left;
   width: 0;
   white-space: nowrap;
-  content: "....................................................................................................................................................................................................................................................................................."
+.  content: "....................................................................................................................................................................................................................................................................................."
 }
 
 ul.auto_dot span:first-child{
@@ -118,9 +178,5 @@ ul.auto_dot span+span{
 }
 
 
-@media screen and (max-width: 1400px) {
-  .origan{
-    gap: 5rem;
-  }
-}
+
 
