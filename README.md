@@ -14,7 +14,3 @@ A mobile-first hero page for the Aegis Neo Bank project. Built as part of my web
 ## Screenshots
 <img width="430" height="934" alt="screenshot-2025-11-15_11-39-29" src="https://github.com/user-attachments/assets/182856a8-7073-488e-8e3a-f9b14490968a" />
 
-<!-- Add screenshots here -->
-<!-- Example: ![App Screenshot](./screenshot.png) -->
-
-
